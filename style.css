@@ -29,7 +29,6 @@ a.prev:hover,a.next:hover {
 	width:50%;
 }
 .slider .slide:target {
-  margin-top:0;
 	z-index: 100;
 }
 img {
