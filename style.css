@@ -80,7 +80,6 @@ div.head {
   margin: 0;
   padding: 1px;
   position: relative;
-  z-index: 2147483647;
 }
 div.head h1{
   animation: slide-down 1s;
@@ -104,6 +103,7 @@ div.links {
   position: -webkit-sticky;
   margin-top: -1;
   top:0;
+  z-index: 2147483647;
 }
 div.links a {
   animation: fade-in 1s;
