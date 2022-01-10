@@ -28,7 +28,7 @@ a.prev:hover,a.next:hover {
 	width:50%;
 }
 .slider .slide:target {
-	z-index: 100;
+	z-index: -1;
 }
 img {
 	max-width:100%;
