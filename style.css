@@ -5,6 +5,7 @@
 }
 a.prev,a.next {
 	height:91px;
+	position:absolute;
 	width:43px;
 	top:70%;
 	opacity:0.6;
@@ -23,10 +24,9 @@ a.prev:hover,a.next:hover {
 	background: #000 url('https://lh4.googleusercontent.com/-JN1IZLtuToI/UUoZnMG3C_I/AAAAAAAAAE8/SEbJ9nqXGnY/s226/sprite.png') no-repeat -167px 25px;
 }
 .slide {
-	position: relative;
+	position:absolute;
 	height:50%;
 	width:50%;
-  z-index: 0;
 }
 .slider .slide:target {
 	z-index: 100;
@@ -88,6 +88,10 @@ div.head h1{
   font-size: 350%;
   transition: 0.5s;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+div.head h1:hover{
+  transform: scale(1.2);
+  opacity: 0.75;
 }
 div.links {
   background-color: #1455d9;
