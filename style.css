@@ -47,6 +47,7 @@ img {
 body, html {
   margin: 0;
   background-color: whitesmoke;
+  scroll-behavior: smooth;
 }
 div.body {
   margin-left: 0%;
