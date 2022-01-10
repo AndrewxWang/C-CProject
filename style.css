@@ -76,10 +76,11 @@ div.body img {
   width: 50%;
 }
 div.head {
+  background-color: #1455d9;
   margin: 0;
   padding: 1px;
   position: relative;
-  background-color: #1455d9;
+  z-index: 2147483647;
 }
 div.head h1{
   animation: slide-down 1s;
