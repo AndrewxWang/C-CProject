@@ -34,7 +34,6 @@ a.prev:hover,a.next:hover {
 img {
 	max-width:50%%;
 	width:50%%;
-	left:0;
 }
 @keyframes slide-down {
   0% {transform: translateY(-200px); color:#1455d9;}
