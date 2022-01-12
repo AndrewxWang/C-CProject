@@ -68,7 +68,7 @@ div.body li {
   margin-left:30%;
   margin-right:30%;
 }
-div.body img, iframe {
+div.body img {
   display: block;
   margin-left: auto;
   margin-right: auto;
