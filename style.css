@@ -122,6 +122,7 @@ div.footer {
   margin: 0;
   background-color: #303030;
   padding: 5%;
+  z-index: 1;
 }
 div.footer h3{
   color: white;
